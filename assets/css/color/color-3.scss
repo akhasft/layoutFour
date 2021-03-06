@@ -1,0 +1,621 @@
+/*----------------------------------------------------home-page-colors-predefine-classes-------------------------------------*/
+
+@import "../_variable.scss";
+
+
+/*===================== 	Premery bg color =====================*/
+/* Hex */
+/*Hex color :hover */
+/*===================== 	Premery text color =====================*/
+/*===================== 	Secondery bg color =====================*/
+/*===================== 	Secondery text color =====================*/
+/* Secondry Color */
+
+$home-color:#6021ff;	
+.bg-primary {
+	background-color: $bg-primary;
+}
+.btn {
+	background-color: $bg-primary;
+	background-color: $btn-color;
+	color: $base-color;
+	&:active {
+		background-color: $sc-primary;
+	}
+	&:hover {
+		
+        background:$sc-primary;
+		color: $base-color;
+	}
+	&:focus {
+		background-color: $sc-primary;
+	}
+}
+.comments-area {
+	.comment-form {
+		p {
+			input[type="submit"] {
+				background-color: $home-color;
+			}
+		}
+	}
+}
+.pagination {
+	>.active {
+		>a {
+			background-color: $home-color;
+			background-color: $sc-primary;
+			&:hover {
+				background-color: $home-color;
+				background-color: $sc-primary;
+			}
+			&:focus {
+				background-color: $home-color;
+				background-color: $sc-primary;
+			}
+		}
+		>span {
+			background-color: $home-color;
+			background-color: $sc-primary;
+			&:hover {
+				background-color: $home-color;
+				background-color: $sc-primary;
+			}
+			&:focus {
+				background-color: $home-color;
+				background-color: $sc-primary;
+			}
+		}
+	}
+	>li {
+		>a {
+			&:hover {
+				background-color: $sc-primary;
+			}
+			&:focus {
+				background-color: $sc-primary;
+			}
+		}
+		>span {
+			&:hover {
+				background-color: $sc-primary;
+			}
+			&:focus {
+				background-color: $sc-primary;
+			}
+		}
+	}
+}
+.feature-filters {
+	.active {
+		>[class*="btn"] {
+			background-color: $home-color;
+		}
+	}
+}
+.list-num-count {
+	>li {
+		&:before {
+			background-color: $home-color;
+		}
+	}
+}
+.pagination-bx.primary {
+	.pagination {
+		>li {
+			>a {
+				background-color: $home-color;
+				&:hover {
+					background-color: $sc-primary;
+				}
+			}
+			>span {
+				background-color: $home-color;
+				&:hover {
+					background-color: $sc-primary;
+				}
+			}
+		}
+		>li.active {
+			>span {
+				background-color: $sc-primary;
+			}
+			>a {
+				background-color: $sc-primary;
+			}
+		}
+	}
+}
+button.back-to-top {
+	background-color: $home-color;
+	background-color: $btn-color;
+	color: $base-color;
+	&:hover {
+		background-color: $home-color;
+		color: $base-color;
+	}
+}
+.rev-btn {
+	background-color: $home-color;
+}
+.active {
+	>.btn {
+		background-color: $sc-primary;
+	}
+}
+.bg-primary-dark {
+	background-color: $sc-primary;
+}
+.sidenav {
+	.closebtn {
+		&:hover {
+			background-color: $sc-primary;	
+			
+		}
+		&:focus {
+			background-color: $sc-primary;
+		}
+	}
+}
+.owl-btn-1.primary {
+	.owl-prev {
+		&:hover {
+			background-color: $sc-primary;
+		}
+	}
+	.owl-next {
+		&:hover {
+			background-color: $sc-primary;
+		}
+	}
+}
+.owl-btn-2.primary {
+	.owl-prev {
+		&:hover {
+			background-color: $sc-primary;
+		}
+	}
+	.owl-next {
+		&:hover {
+			background-color: $sc-primary;
+		}
+	}
+}
+a {
+	color: $home-color;
+}
+.text-primary {
+	color: $home-color;
+}
+.primary {
+	li {
+		&:before {
+			color: $home-color;
+		}
+	}
+}
+.menu-links {
+	.nav {
+		>li.active {
+			>a {
+				color: $home-color;
+			}
+		}
+		>li {
+			&:hover {
+				>a {
+					color: $home-color;
+				}
+			}
+			.mega-menu {
+				>li {
+					ul {
+						a {
+							&:hover {
+								color: $home-color;
+							}
+						}
+					}
+				}
+			}
+			.sub-menu {
+				li {
+					&:hover {
+						>a {
+							color: $home-color;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+footer {
+	a {
+		&:active {
+			color: $home-color;
+		}
+		&:focus {
+			color: $home-color;
+		}
+		&:hover {
+			color: $home-color;
+		}
+	}
+	h1,h2,h3,h4,h5,h6,p {
+		a {
+			color: $home-color;
+		}
+	}
+
+	
+}
+.testimonial-1 {
+	.testimonial-position {
+		color: $home-color;
+	}
+}
+.acod-head {
+	a {
+		&:after {
+			color: $home-color;
+		}
+		color: $home-color;
+		&:hover {
+			color: $home-color;
+		}
+	}
+	a.collapsed {
+		&:hover {
+			color: $home-color;
+		}
+	}
+}
+.ttr-tabs {
+	.nav-tabs {
+		>li {
+			>a {
+				i {
+					color: $home-color;
+				}
+			}
+		}
+	}
+}
+h1 {
+	a {
+		&:hover {
+			color: $home-color;
+		}
+	}
+}
+h2 {
+	a {
+		&:hover {
+			color: $home-color;
+		}
+	}
+}
+h3 {
+	a {
+		&:hover {
+			color: $home-color;
+		}
+	}
+}
+h4 {
+	a {
+		&:hover {
+			color: $home-color;
+		}
+	}
+}
+h5 {
+	a {
+		&:hover {
+			color: $home-color;
+		}
+	}
+}
+h6 {
+	a {
+		&:hover {
+			color: $home-color;
+		}
+	}
+}
+.btn.outline {
+	color: $home-color;
+	&:hover {
+		background-color: $btn-color;
+		color: $base-color;
+	}
+}
+.btn-link {
+	&:hover {
+		color: $home-color;
+	}
+}
+.bg-secondry {
+	background-color: #2d3239;
+}
+.text-secondry {
+	color: #2d3239;
+}
+.ovpr-light {
+	&:after {
+		background-color: $home-color;
+	}
+}
+.ovpr-middle {
+	&:after {
+		background-color: $home-color;
+	}
+}
+.ovpr-dark {
+	&:after {
+		background-color: $home-color;
+		background: $home-color;
+		background: -moz-linear-gradient(45deg, $home-color 11%, $linear-color 85%);
+		background: -webkit-linear-gradient(45deg, $home-color 11%,$linear-color 85%);
+		background: linear-gradient(45deg, $home-color 11%,$linear-color 85%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$home-color', endColorstr='$linear-color',GradientType=1 );
+	}
+}
+.ovpr {
+	&:after {
+		background-color: $home-color;
+	}
+}
+.footer-top {
+	background-color: $base-color;
+}
+.footer-bottom {
+	background-color: $base-color;
+}
+.ovbl-middle {
+	&::after {
+		background: #0a0023;
+		background: -moz-linear-gradient(45deg, #0a0023 0%, #00204f 100%);
+		background: -webkit-linear-gradient(45deg, #0a0023 0%,#00204f 100%);
+		background: linear-gradient(45deg, #0a0023 0%,#00204f 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0023', endColorstr='#00204f',GradientType=1 );
+	}
+}
+.ovbl-light {
+	&::after {
+		background: #0a0023;
+		background: -moz-linear-gradient(45deg, #0a0023 0%, #00204f 100%);
+		background: -webkit-linear-gradient(45deg, #0a0023 0%,#00204f 100%);
+		background: linear-gradient(45deg, #0a0023 0%,#00204f 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0023', endColorstr='#00204f',GradientType=1 );
+	}
+}
+.ovbl-dark {
+	&::after {
+		background: #0a0023;
+		background: linear-gradient(45deg, #0a0023 0%,#00204f 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0023', endColorstr='#00204f',GradientType=1 );
+	}
+}
+.bg-gradient {
+	background: $home-color;
+	background: -moz-linear-gradient(45deg, $home-color 11%, $linear-color 85%);
+	background: -webkit-linear-gradient(45deg, $home-color 11%,$linear-color 85%);
+	background: linear-gradient(45deg, $home-color 11%,$linear-color 85%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$home-color', endColorstr='$linear-color',GradientType=1 );
+}
+.ttr-notify-header {
+	&::after {
+		background: $home-color;
+		background: -moz-linear-gradient(45deg, $home-color 11%, $linear-color 85%);
+		background: -webkit-linear-gradient(45deg, $home-color 11%,$linear-color 85%);
+		background: linear-gradient(45deg, $home-color 11%,$linear-color 85%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$home-color', endColorstr='$linear-color',GradientType=1 );
+	}
+}
+.widget-bg1 {
+	background: $home-color;
+	background: -moz-linear-gradient(45deg, $home-color 11%, $linear-color 85%);
+	background: -webkit-linear-gradient(45deg, $home-color 11%,$linear-color 85%);
+	background: linear-gradient(45deg, $home-color 11%,$linear-color 85%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$home-color', endColorstr='$linear-color',GradientType=1 );
+}
+.ttr-search-bar {
+	background: $home-color;
+	background: -moz-linear-gradient(45deg, $home-color 11%, $linear-color 85%);
+	background: -webkit-linear-gradient(45deg, $home-color 11%,$linear-color 85%);
+	background: linear-gradient(45deg, $home-color 11%,$linear-color 85%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$home-color', endColorstr='$linear-color',GradientType=1 );
+}
+.ttr-header {
+	background: $home-color;
+	background: -moz-linear-gradient(45deg, $home-color 11%, $linear-color 85%);
+	background: -webkit-linear-gradient(45deg, $home-color 11%,$linear-color 85%);
+	background: linear-gradient(45deg, $home-color 11%,$linear-color 85%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$home-color', endColorstr='$linear-color',GradientType=1 );
+}
+.pricingtable-main {
+	background: $home-color;
+	background: -moz-linear-gradient(45deg, $home-color 11%, $linear-color 85%);
+	background: -webkit-linear-gradient(45deg, $home-color 11%,$linear-color 85%);
+	background: linear-gradient(45deg, $home-color 11%,$linear-color 85%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$home-color', endColorstr='$linear-color',GradientType=1 );
+}
+.account-head {
+	&:after {
+		background: $home-color;
+		background: -moz-linear-gradient(45deg, $home-color 11%, $linear-color 85%);
+		background: -webkit-linear-gradient(45deg, $home-color 11%,$linear-color 85%);
+		background: linear-gradient(45deg, $home-color 11%,$linear-color 85%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$home-color', endColorstr='$linear-color',GradientType=1 );
+	}
+}
+.portfolio-bx {
+	.portfolio-info-bx {
+		background-color: $btn-color;
+		color: $base-color;
+	}
+}
+.course-info-list {
+	ul {
+		li {
+			a.active {
+				background-color: $btn-color;
+				color: $base-color;
+				&:hover {
+					background-color: $home-color;
+					color: $base-color;
+				}
+			}
+			a {
+				&:hover {
+					background-color: $btn-color;
+					color: $base-color;
+					background-color: $home-color;
+					color: $base-color;
+				}
+			}
+		}
+	}
+}
+.profile-tabnav {
+	.nav {
+		li {
+			a.active {
+				background-color: $btn-color;
+				color: $base-color;
+				&:hover {
+					background-color: $home-color;
+					color: $base-color;
+				}
+			}
+		}
+	}
+}
+.upcoming-event-carousel.owl-btn-1 {
+	.owl-prev {
+		background-color: $btn-color;
+		color: $base-color;
+		&:hover {
+			background-color: $home-color;
+			color: $base-color;
+		}
+	}
+	.owl-next {
+		background-color: $btn-color;
+		color: $base-color;
+		&:hover {
+			background-color: $home-color;
+			color: $base-color;
+		}
+	}
+}
+.courses-carousel {
+	.owl-nav {
+		.owl-next {
+			background-color: $btn-color;
+			color: $base-color;
+			&:hover {
+				background-color: $home-color;
+				color: $base-color;
+			}
+		}
+		.owl-prev {
+			background-color: $btn-color;
+			color: $base-color;
+			&:hover {
+				background-color: $home-color;
+				color: $base-color;
+			}
+		}
+	}
+}
+.recent-news-carousel {
+	.owl-nav {
+		.owl-next {
+			background-color: $btn-color;
+			color: $base-color;
+			&:hover {
+				background-color: $home-color;
+				color: $base-color;
+			}
+		}
+		.owl-prev {
+			background-color: $btn-color;
+			color: $base-color;
+			&:hover {
+				background-color: $home-color;
+				color: $base-color;
+			}
+		}
+	}
+}
+.testimonial-carousel {
+	.owl-nav {
+		.owl-next {
+			background-color: $btn-color;
+			color: $base-color;
+			&:hover {
+				background-color: $home-color;
+				color: $base-color;
+			}
+		}
+		.owl-prev {
+			background-color: $btn-color;
+			color: $base-color;
+			&:hover {
+				background-color: $home-color;
+				color: $base-color;
+			}
+		}
+	}
+}
+.footer_widget {
+	ul {
+		li {
+			a {
+				&:hover {
+					color: $btn-color;
+				}
+			}
+		}
+	}
+}
+[class*="ovbl-"] {
+	.counter-style-1 {
+		.counter-text {
+			color: $btn-color;
+		}
+	}
+}
+.header-transparent {
+	.secondary-menu {
+		.btn-link {
+			&:hover {
+				color: $btn-color;
+			}
+		}
+	}
+	.menu-links {
+		.nav {
+			>li {
+				&:hover {
+					>a {
+						color: $btn-color;
+					}
+				}
+			}
+			>li.active {
+				>a {
+					color: $btn-color;
+				}
+			}
+		}
+	}
+}
+.heading-bx.left {
+	.title-head {
+		border-color: $btn-color;
+	}
+}

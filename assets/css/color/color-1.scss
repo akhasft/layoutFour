@@ -1,0 +1,605 @@
+/* ---------------------------------------------other than home page all pages colors and predefine classes----------------------------- */
+
+@import"../variable";
+
+/*===================== 	Premery bg color =====================*/
+
+//----------------------background-styling------------------------
+.bg-primary {
+	background-color: $linear-color;
+	background-color: $sc-primary;
+}
+
+//-------------------button-styling----------------------
+.btn {
+	background-color: $btn-color;
+	color: $text-color;
+	&:active {
+		background-color: $sc-primary;
+	}
+	&:hover {
+		background-color: $sc-primary;
+		color: $base-color;
+	}
+	&:focus {
+		background-color: $sc-primary;
+	}
+}
+.comments-area {
+	.comment-form {
+		p {
+			input[type="submit"] {
+				background-color: $sc-primary;
+
+			}
+		}
+	}
+}
+
+//-----------------------------------pagenation-styling-----------------------------------------------------------
+
+.pagination {
+	>.active {
+		>a {
+			background-color: $sc-primary;
+			background-color: $sc-primary;
+			&:hover {
+				background-color: $sc-primary;
+				background-color: $sc-primary;
+			}
+			&:focus {
+				background-color: $sc-primary;
+				background-color: $sc-primary;
+			}
+		}
+		>span {
+			background-color: $sc-primary;
+			background-color: $sc-primary;
+			&:hover {
+				background-color: $sc-primary;
+				background-color: $sc-primary;
+			}
+			&:focus {
+				background-color: $sc-primary;
+				background-color: $sc-primary;
+			}
+		}
+	}
+	>li {
+		>a {
+			&:hover {
+				background-color: $sc-primary;
+			}
+			&:focus {
+				background-color: $sc-primary;
+			}
+		}
+		>span {
+			&:hover {
+				background-color: $sc-primary;
+			}
+			&:focus {
+				background-color: $sc-primary;
+			}
+		}
+	}
+}
+.feature-filters {
+	.active {
+		>[class*="btn"] {
+			background-color: $sc-primary;
+		}
+	}
+}
+.list-num-count {
+	>li {
+		&:before {
+			background-color: $sc-primary;
+		}
+	}
+}
+.pagination-bx.primary {
+	.pagination {
+		>li {
+			>a {
+				background-color: $sc-primary;
+				&:hover {
+					background-color: $sc-primary;
+				}
+			}
+			>span {
+				background-color: $sc-primary;
+				&:hover {
+					background-color: $sc-primary;
+				}
+			}
+		}
+		>li.active {
+			>span {
+				background-color: $sc-primary;
+			}
+			>a {
+				background-color: $sc-primary;
+			}
+		}
+	}
+}
+
+
+//-----------------------------------------button-back-to-top-styling-----------------------------------------------------
+button.back-to-top {
+	background-color: $btn-color;
+	color: $base-color;
+	border-radius: $btn-border-radius;
+	&:hover {
+		background-color: $sc-primary;
+		color: $base-color;
+	}
+}
+.heading{
+	color:$heading-color;
+}
+//---------------------------predefine-basic classes------------------------------------------------------------------------
+.rev-btn {
+	background-color: $sc-primary;
+}
+.active {
+	>.btn {
+		background-color: $sc-primary;
+	}
+}
+.bg-primary-dark {
+	background-color: $sc-primary;
+}
+.sidenav {
+	.closebtn {
+		&:hover {
+			background-color: $sc-primary;
+		}
+		&:focus {
+			background-color: $sc-primary;
+		}
+	}
+}
+.owl-btn-1.primary {
+	.owl-prev {
+		&:hover {
+			background-color: $sc-primary;
+		}
+	}
+	.owl-next {
+		&:hover {
+			background-color: $sc-primary;
+		}
+	}
+}
+.owl-btn-2.primary {
+	.owl-prev {
+		&:hover {
+			background-color: $sc-primary;
+		}
+	}
+	.owl-next {
+		&:hover {
+			background-color: $sc-primary;
+		}
+	}
+}
+a {
+	color: $sc-primary;
+}
+.text-primary {
+	color: $sc-primary;
+}
+.primary {
+	li {
+		&:before {
+			color: $sc-primary;
+		}
+	}
+}
+.menu-links {
+	.nav {
+		>li.active {
+			>a {
+				color: $btn-color !important;
+			}
+		}
+		>li {
+			&:hover {
+				>a {
+					color: $sc-primary;
+				}
+			}
+			.mega-menu {
+				>li {
+					ul {
+						a {
+							&:hover {
+								color: $sc-primary;
+							}
+						}
+					}
+				}
+			}
+			.sub-menu {
+				li {
+					&:hover {
+						>a {
+							color: $sc-primary;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+//---------------------------------------------------footer-color-styling-----------------------------------------
+footer {
+	background: $base-color;
+	a {
+		&:active {
+			color: $sc-primary;
+		}
+		&:focus {
+			color: $sc-primary;
+		}
+		&:hover {
+			color: $sc-primary;
+		}
+	}
+	h1,h2,h3,h4,h5,h6,p {
+		a {
+			color: $sc-primary;
+			
+		}
+	}
+
+}
+
+.educhamp{
+	color:$heading-color;
+}
+.testimonial-1 {
+	.testimonial-position {
+		color: $sc-primary;
+	}
+}
+.acod-head {
+	a {
+		&:after {
+			color: $sc-primary;
+		}
+		color: $sc-primary;
+		&:hover {
+			color: $sc-primary;
+		}
+	}
+	a.collapsed {
+		&:hover {
+			color: $sc-primary;
+		}
+	}
+}
+.ttr-tabs {
+	.nav-tabs {
+		>li {
+			>a {
+				i {
+					color: $sc-primary;
+				}
+			}
+		}
+	}
+}
+h1,h2,h3,h4,h5,h6 {
+	a {
+		&:hover {
+			color: $sc-primary;
+		}
+	}
+}
+
+.btn.outline {
+	color: $sc-primary;
+	&:hover {
+		background-color: $accent-color;
+		color: $text-color;
+	}
+}
+.btn-link {
+	&:hover {
+		color: $sc-primary;
+	}
+}
+.bg-secondry {
+	background-color: #2d3239;
+}
+.text-secondry {
+	color: #2d3239;
+}
+.ovpr-light {
+	&:after {
+		background-color: $sc-primary;
+	}
+}
+.ovpr-middle {
+	&:after {
+		background-color: $sc-primary;
+	}
+}
+.ovpr-dark {
+	&:after {
+		background-color: $sc-primary;
+		background: $sc-primary;
+		background: -moz-linear-gradient(45deg, $sc-primary 0%, #3f189a 100%);
+		background: -webkit-linear-gradient(45deg, $sc-primary 0%,#3f189a 100%);
+		background: linear-gradient(45deg, $sc-primary 0%,#3f189a 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$sc-primary', endColorstr='#3f189a',GradientType=1 );
+	}
+}
+.ovpr {
+	&:after {
+		background-color: $sc-primary;
+	}
+}
+.footer-top {
+	background-color: $base-color;
+	
+	
+	}
+
+.footer-bottom {
+	background-color: $base-color;
+}
+.ovbl-middle {
+	&::after {
+		background: #100018;
+		background: -moz-linear-gradient(45deg, #100018 0%, #26006c 50%, #110038 100%);
+		background: -webkit-linear-gradient(45deg, #100018 0%,#26006c 50%,#110038 100%);
+		background: linear-gradient(45deg, #100018 0%,#26006c 50%,#110038 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#100018', endColorstr='#110038',GradientType=1 );
+	}
+}
+.ovbl-light {
+	&::after {
+		background: #100018;
+		background: -moz-linear-gradient(45deg, #100018 0%, #26006c 50%, #110038 100%);
+		background: -webkit-linear-gradient(45deg, #100018 0%,#26006c 50%,#110038 100%);
+		background: linear-gradient(45deg, #100018 0%,#26006c 50%,#110038 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#100018', endColorstr='#110038',GradientType=1 );
+	}
+}
+.ovbl-dark {
+	&::after {
+	    background: linear-gradient(45deg, $bg-primary 11%, $linear-color 85%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#100018', endColorstr='#110038',GradientType=1 );
+	}
+}
+.ttr-notify-header {
+	&::after {
+		background: $sc-primary;
+		background: -moz-linear-gradient(45deg, $sc-primary 0%, #3f189a 100%);
+		background: -webkit-linear-gradient(45deg, $sc-primary 0%,#3f189a 100%);
+		background: linear-gradient(45deg, $sc-primary 0%,#3f189a 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$sc-primary', endColorstr='#3f189a',GradientType=1 );
+	}
+}
+.widget-bg1 {
+	background: $sc-primary;
+	background: -moz-linear-gradient(45deg, $sc-primary 0%, #3f189a 100%);
+	background: -webkit-linear-gradient(45deg, $sc-primary 0%,#3f189a 100%);
+	background: linear-gradient(45deg, $sc-primary 0%,#3f189a 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$sc-primary', endColorstr='#3f189a',GradientType=1 );
+}
+.ttr-search-bar {
+	background: $sc-primary;
+	background: -moz-linear-gradient(45deg, $sc-primary 0%, #3f189a 100%);
+	background: -webkit-linear-gradient(45deg, $sc-primary 0%,#3f189a 100%);
+	background: linear-gradient(45deg, $sc-primary 0%,#3f189a 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$sc-primary', endColorstr='#3f189a',GradientType=1 );
+}
+.ttr-header {
+	background: $sc-primary;
+	background: -moz-linear-gradient(45deg, $sc-primary 0%, #3f189a 100%);
+	background: -webkit-linear-gradient(45deg, $sc-primary 0%,#3f189a 100%);
+	background: linear-gradient(45deg, $sc-primary 0%,#3f189a 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$sc-primary', endColorstr='#3f189a',GradientType=1 );
+}
+//-----------------------------account-section styling---------------------
+.account-head {
+	&:after {
+		background: $sc-primary;
+		background: -moz-linear-gradient(45deg, $sc-primary 0%, #3f189a 100%);
+		background: -webkit-linear-gradient(45deg, $sc-primary 0%,#3f189a 100%);
+		background: linear-gradient(45deg, $sc-primary 0%,#3f189a 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$sc-primary', endColorstr='#3f189a',GradientType=1 );
+	}
+}
+//*--------------------course-styling----------------------
+.course-info-list {
+	ul {
+		li {
+			list-style: none;
+			a.active {
+				background-color: $linear-color;
+				color: $base-color;
+				&:hover {
+					background-color: $heading-color;
+					color: $base-color;
+				}
+			}
+			a {
+				color:$linear-color;
+				border-radius: 30px;
+				&:hover {
+					background-color: $sc-primary;
+					color: $base-color;
+					
+				}
+			}
+		}
+	}
+}
+
+.upcoming-event-carousel.owl-btn-1 {
+	.owl-prev {
+		background-color: $accent-color;
+		color: $text-color;
+		&:hover {
+			background-color: $sc-primary;
+			color: $base-color;
+		}
+	}
+	.owl-next {
+		background-color: $accent-color;
+		color: $text-color;
+		&:hover {
+			background-color: $sc-primary;
+			color: $base-color;
+		}
+	}
+}
+.courses-carousel {
+	.owl-nav {
+		.owl-next {
+			background-color: $accent-color;
+			color: $text-color;
+			&:hover {
+				background-color: $sc-primary;
+				color: $base-color;
+			}
+		}
+		.owl-prev {
+			background-color: $accent-color;
+			color: $text-color;
+			&:hover {
+				background-color: $sc-primary;
+				color: $base-color;
+			}
+		}
+	}
+}
+.recent-news-carousel {
+	.owl-nav {
+		.owl-next {
+			background-color: $btn-color;
+			color: $base-color;
+			border-radius: 30px;
+			&:hover {
+				background-color: $sc-primary;
+				color: $base-color;
+			}
+		}
+		.owl-prev {
+			background-color: $accent-color;
+			color: $text-color;
+			&:hover {
+				background-color: $sc-primary;
+				color: $base-color;
+			}
+		}
+	}
+}
+
+/*------------------------------------------------------------------testimonial---
+-----------------------------------------------------------------------styling--*/
+.testimonial-carousel {
+	.owl-nav {
+		.owl-next {
+			background-color: $btn-color;
+			color: $base-color;
+			border-radius: 30px;
+			&:hover {
+				background-color: $sc-primary;
+				color: $base-color;
+			}
+		}
+		.owl-prev {
+			background-color: $btn-color;
+			color: $base-color;
+			border-radius: 30px;
+			&:hover {
+				background-color: $sc-primary;
+				color: $base-color;
+			}
+		}
+	}
+}
+
+
+/*----------------------------------------------------footer-syling-------*/
+.footer_widget {
+	ul {
+		li {
+			.addr{
+				&:hover{
+					color:$text-color;
+				}
+			}
+			.link{
+				margin-top:-15px;
+
+			}
+			.quick-link{
+				&:hover{
+					color:$btn-color;
+				}
+			}
+			
+			a {
+				color:$text-color;
+				padding: 14px 14px;
+				display: block;
+				font-weight: 400;
+				.icon{
+					font-size:20px;
+					color:$btn-color;
+					margin-right: 10px;
+
+				}			
+			}
+		}
+	}
+}
+[class*="ovbl-"] {
+	.counter-style-1 {
+		.counter-text {
+			color: $accent-color;
+		}
+	}
+}
+
+//----------------------------------------header-styling----------------------*/
+.header-transparent {
+	.secondary-menu {
+		.btn-link {
+			&:hover {
+				color: $btn-color;
+			}
+		}
+	}
+	.menu-links {
+		.nav {
+			>li {
+				&:hover {
+					>a {
+						color: $accent-color;
+					}
+				}
+			}
+			>li.active {
+				>a {
+					color: $accent-color;
+				}
+			}
+		}
+	}
+}
+.heading-bx.left {
+	.title-head {
+		border-color: $btn-color;
+	}
+}
